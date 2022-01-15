@@ -1,0 +1,90 @@
+/* common styles/utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 150px;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: 3%;
+}
+.menu a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px;
+}
+.menu span{
+    color: #3A3A3A;
+    margin: 15px;
+    font-size: 20px;
+}
+/* Start Journey Style */
+.start-journey{
+    width: 440px;
+}
+.h1-part1{
+    font-size: 40px;
+}
+.pree-button{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #38b6ff;
+    padding: 12px;
+    border-radius: 20px;
+}
+.arrow{
+    margin-left: 10px;
+    font-weight: 700;
+}
+.pree-button:hover{
+    color: #38b6ff;
+    background-color: #ffffff;
+    transition: 0.3s ease;
+    border: 2px solid #38b6ff;
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+.gopro img{
+    width: 440px;
+}
+.gopro:hover img{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+/* Brand Logo */
+.brand{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 1110px;
+    height: 110px;
+}
+.hrstyle{
+
+    border: 0;
+    height: 1px;
+    margin-bottom: 1%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.blogo{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+.blogo img:hover{
+    transform: scale(1.5);
+    transition: transform 0.4s ease;
+}
